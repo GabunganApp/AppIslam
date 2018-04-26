@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+        app:srcCompat="@drawable/ima" />
+
+    <Button
+        android:id="@+id/doa"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:text="Doa'Harian"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/jadwal"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:text="Jadwal Sholat"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <Button
+        android:id="@+id/praktek"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:text="Praktek Sholat"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="353dp" />
+</LinearLayout>

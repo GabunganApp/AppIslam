@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="JadwalSholatWITA"
+        android:text="JadwalSholatWIB"
         android:textSize="25sp" />
 
     <LinearLayout
@@ -140,12 +140,10 @@
         android:text="Next" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/samarinda" />
+        app:srcCompat="@drawable/jakarta" />
 
 
 </LinearLayout>
-
-

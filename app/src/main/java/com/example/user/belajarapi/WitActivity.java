@@ -1,16 +1,15 @@
 package com.example.user.belajarapi;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.telecom.Call;
-import android.view.KeyEvent;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.example.user.belajarapi.model.Items;
 import com.example.user.belajarapi.model.Jadwal;
-import com.example.user.belajarapi.rest.ApiClient;
-import com.example.user.belajarapi.rest.ApiInterface;
+import com.example.user.belajarapi.rest.ApiClientWib;
+import com.example.user.belajarapi.rest.ApiClientWit;
+import com.example.user.belajarapi.rest.ApiInterfaceWib;
+import com.example.user.belajarapi.rest.ApiInterfaceWit;
 
 import java.util.List;
 
@@ -20,7 +19,11 @@ import butterknife.OnClick;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class MainActivity extends AppCompatActivity {
+/**
+ * Created by User on 4/21/2018.
+ */
+
+public class WitActivity extends AppCompatActivity {
 
     @BindView(R.id.tvSubuh)
     TextView tvSubuh;
@@ -40,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.wit_activity);
         ButterKnife.bind(this);
     }
 
@@ -54,17 +57,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
-    @OnClick(R.id.next)
-    public void next() {
-        Intent intent = new Intent(MainActivity.this, WibActivity.class);
-        startActivity(intent);
-    }
 
     @OnClick(R.id.btnLoadData)
     void actionLoadData() {
-        ApiInterface apiService = ApiClient.getClient().create(ApiInterface.class);
+        ApiInterfaceWit apiService = ApiClientWit.getClient().create(ApiInterfaceWit.class);
 
-        retrofit2.Call<Items> call = apiService.getJadwalSholat("Samarinda");
+        retrofit2.Call<Items> call = apiService.getJadwalSholat("Papua");
 
         call.enqueue(new Callback<Items>() {
             @Override
@@ -81,3 +79,4 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+
