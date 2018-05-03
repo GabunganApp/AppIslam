@@ -16,7 +16,7 @@ public class Doa7Activity extends AppCompatActivity{
     }
     @OnClick(R.id.lanjut)
     public void lanjut() {
-        Intent intent = new Intent(Doa7Activity.this, Doa7Activity.class);
+        Intent intent = new Intent(Doa7Activity.this, HomeActivity.class);
         startActivity(intent);
     }
 }
