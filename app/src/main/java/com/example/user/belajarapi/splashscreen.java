@@ -28,7 +28,7 @@ public class splashscreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(splashscreen.this, MainActivity.class);
+                Intent i = new Intent(splashscreen.this, HomeActivity.class);
                 startActivity(i);
                 this.finish();
             }
@@ -38,4 +38,5 @@ public class splashscreen extends AppCompatActivity {
             }
         }, splashInterval);
     };
+
 }

@@ -2,9 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/activity_main"
+    android:background="@drawable/backback"
     android:orientation="vertical"
     tools:context="com.example.user.belajarapi.MainActivity">
 
@@ -13,14 +14,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:backgroundTint="@android:color/holo_orange_light"
         android:text="Load Data" />
 
     <TextView
         android:id="@+id/tvData"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/black"
         android:gravity="center_horizontal"
         android:text="JadwalSholatWITA"
+        android:textColor="@android:color/background_dark"
         android:textSize="25sp" />
 
     <LinearLayout
@@ -36,12 +40,12 @@
             android:text="Subuh" />
 
         <TextView
-            android:textStyle="bold"
             android:id="@+id/tvSubuh"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="right" />
+            android:gravity="right"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -58,12 +62,12 @@
             android:text="Zuhur" />
 
         <TextView
-            android:textStyle="bold"
             android:id="@+id/tvZuhur"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="right" />
+            android:gravity="right"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -80,12 +84,12 @@
             android:text="Ashar" />
 
         <TextView
-            android:textStyle="bold"
             android:id="@+id/tvAshar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="right" />
+            android:gravity="right"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -102,12 +106,12 @@
             android:text="Maghrib" />
 
         <TextView
-            android:textStyle="bold"
             android:id="@+id/tvMagrhib"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="right" />
+            android:gravity="right"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -124,12 +128,12 @@
             android:text="Isya" />
 
         <TextView
-            android:textStyle="bold"
             android:id="@+id/tvIsya"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="right" />
+            android:gravity="right"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -137,6 +141,7 @@
         android:id="@+id/next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_light"
         android:text="Next" />
 
     <ImageView

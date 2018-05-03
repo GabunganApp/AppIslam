@@ -11,17 +11,17 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/imageView11"
             android:layout_width="match_parent"
-            android:layout_height="458dp"
+            android:layout_height="470dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/praktikshalat1" />
+            app:srcCompat="@drawable/praktikshalat7" />
 
         <Button
             android:id="@+id/lanjut"
             android:layout_width="match_parent"
-            android:layout_height="54dp"
+            android:layout_height="wrap_content"
             android:background="@android:color/holo_blue_dark"
-            android:text="Lanjut" />
+            android:text="Kembali Ke Home" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

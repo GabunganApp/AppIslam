@@ -30,4 +30,14 @@ public class HomeActivity extends AppCompatActivity{
         Intent intent = new Intent(HomeActivity.this, MainActivity.class);
         startActivity(intent);
     }
+    @OnClick(R.id.praktek)
+    public void praktek() {
+        Intent intent = new Intent(HomeActivity.this, PraktekActivity.class);
+        startActivity(intent);
+    }
+    @OnClick(R.id.doa)
+    public void doa() {
+        Intent intent = new Intent(HomeActivity.this, Doa1Activity.class);
+        startActivity(intent);
+    }
 }
