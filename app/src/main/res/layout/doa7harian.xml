@@ -30,7 +30,7 @@
         android:layout_width="380dp"
         android:layout_height="60dp"
         android:background="#64e54a"
-        android:text="Lanjut"
+        android:text="Kembali Ke Home"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="2dp" />
 </android.support.constraint.ConstraintLayout>
