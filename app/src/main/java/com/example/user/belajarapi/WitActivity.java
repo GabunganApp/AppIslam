@@ -1,5 +1,6 @@
 package com.example.user.belajarapi;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
@@ -56,6 +57,11 @@ public class WitActivity extends AppCompatActivity {
             tvIsya.setText(data.isya);
         }
 
+    }
+    @OnClick(R.id.home)
+    public void home() {
+        Intent intent = new Intent(WitActivity.this, HomeActivity.class);
+        startActivity(intent);
     }
 
     @OnClick(R.id.btnLoadData)

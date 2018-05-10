@@ -136,6 +136,13 @@
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Home" />
+
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"

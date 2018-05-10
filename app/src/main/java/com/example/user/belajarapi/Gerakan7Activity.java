@@ -16,7 +16,7 @@ public class Gerakan7Activity extends AppCompatActivity {
     }
     @OnClick(R.id.lanjut)
     public void lanjut() {
-        Intent intent = new Intent(Gerakan7Activity.this,HomeActivity.class);
+        Intent intent = new Intent(Gerakan7Activity.this, HomeActivity.class);
         startActivity(intent);
     }
 }
