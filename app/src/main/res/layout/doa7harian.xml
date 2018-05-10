@@ -20,7 +20,7 @@
         <ImageView
             android:id="@+id/imageView22"
             android:layout_width="match_parent"
-            android:layout_height="249dp"
+            android:layout_height="259dp"
             app:srcCompat="@drawable/doa8harian" />
 
     </LinearLayout>
@@ -28,7 +28,7 @@
     <Button
         android:id="@+id/lanjut"
         android:layout_width="380dp"
-        android:layout_height="60dp"
+        android:layout_height="45dp"
         android:background="#64e54a"
         android:text="Home"
         app:layout_constraintBottom_toBottomOf="parent"
