@@ -11,7 +11,7 @@
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
         android:layout_height="269dp"
-        app:srcCompat="@drawable/logow" />
+        app:srcCompat="@drawable/logo" />
 
     <Button
         android:id="@+id/doa"
@@ -39,4 +39,31 @@
         android:text="Praktek Sholat"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="353dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi AppIslam "
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manajemen Informatika"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VI B"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
 </LinearLayout>
