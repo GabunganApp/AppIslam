@@ -58,6 +58,12 @@ public class MainActivity extends AppCompatActivity {
     public void next() {
         Intent intent = new Intent(MainActivity.this, WibActivity.class);
         startActivity(intent);
+
+    }
+    @OnClick(R.id.lokasi)
+    public void lokasi() {
+        Intent intent = new Intent(MainActivity.this, MapsActivity.class);
+        startActivity(intent);
     }
 
     @OnClick(R.id.btnLoadData)
