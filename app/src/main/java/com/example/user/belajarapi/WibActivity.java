@@ -61,6 +61,11 @@ public class WibActivity extends AppCompatActivity {
         Intent intent = new Intent(WibActivity.this, WitActivity.class);
         startActivity(intent);
     }
+    @OnClick(R.id.lokasi)
+    public void lokasi() {
+        Intent intent = new Intent(WibActivity.this, Maps1Activity.class);
+        startActivity(intent);
+    }
 
     @OnClick(R.id.btnLoadData)
     void actionLoadData() {

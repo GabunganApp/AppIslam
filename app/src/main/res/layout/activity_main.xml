@@ -151,12 +151,6 @@
         android:backgroundTint="@android:color/holo_orange_light"
         android:text="Cek Lokasi" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/samarinda" />
-
 
 </LinearLayout>
 

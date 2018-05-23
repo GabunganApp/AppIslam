@@ -63,6 +63,11 @@ public class WitActivity extends AppCompatActivity {
         Intent intent = new Intent(WitActivity.this, HomeActivity.class);
         startActivity(intent);
     }
+    @OnClick(R.id.lokasi)
+    public void lokasi() {
+        Intent intent = new Intent(WitActivity.this, Maps2Activity.class);
+        startActivity(intent);
+    }
 
     @OnClick(R.id.btnLoadData)
     void actionLoadData() {
