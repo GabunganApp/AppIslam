@@ -169,6 +169,13 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps"></activity>
+        <activity
+            android:name=".Maps1Activity"
+            android:label="@string/title_activity_maps"></activity>
+        <activity
+            android:name=".Maps2Activity"
+            android:label="@string/title_activity_maps"></activity>
     </application>
+
 
 </manifest>

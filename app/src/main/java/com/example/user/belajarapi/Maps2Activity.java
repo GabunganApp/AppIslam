@@ -39,9 +39,9 @@ public class Maps2Activity extends FragmentActivity implements OnMapReadyCallbac
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng islamic = new LatLng(-8.4938961, 140.3984942);
-        mMap.addMarker(new MarkerOptions().position(islamic).title("Masjid Al-Aqsa Merauke"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(islamic));
+        LatLng alaqsa = new LatLng(-8.4938961, 140.3984942);
+        mMap.addMarker(new MarkerOptions().position(alaqsa).title("Masjid Al-Aqsa Merauke"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(alaqsa));
     }
 }
 
