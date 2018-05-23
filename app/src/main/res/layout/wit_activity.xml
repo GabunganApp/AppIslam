@@ -143,9 +143,11 @@
         android:backgroundTint="@android:color/holo_orange_light"
         android:text="Home" />
 
-    <ImageView
-        android:id="@+id/imageView3"
+    <Button
+        android:id="@+id/lokasi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/papua" />
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Cek Lokasi" />
+
 </LinearLayout>
