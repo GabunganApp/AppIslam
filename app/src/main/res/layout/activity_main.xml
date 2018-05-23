@@ -144,6 +144,12 @@
         android:backgroundTint="@android:color/holo_orange_light"
         android:text="Next" />
 
+    <Button
+        android:id="@+id/lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cek Lokasi" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
